@@ -1,0 +1,188 @@
+.tot{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.scris h2{
+    font-size:2rem;
+    width:40%;
+    display: grid;
+    grid-area: scris;
+}
+
+.scris img{
+    display: grid;
+    grid-area: img;
+    width:25vw;
+}
+.scris h1{
+    font-size:4rem;
+    display:grid;
+    grid-area: titlu;
+    
+}
+.scris button{
+    font-size: 2rem; 
+  display: flex;
+  margin-left:7%;
+  text-align: center;
+ width: 100%;
+ 
+  color:black;
+  display: grid;
+  grid-area: button;
+    background: none;
+    border-radius: 30px;
+   transition: 0.5s ease;
+   text-decoration: none;
+  }
+ .scris .btn button{
+     display: none;
+ }
+@media  all and (max-width: 681px){
+    .scris{
+        transform:translateY(30vh);
+        text-align: center;
+    }
+    .scris .btn button{
+        display: block;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        margin-left:12%;
+    }
+    .scris h2{
+        display: none;
+    }
+    .scris h1{
+        font-size:2rem;
+    }
+    .scris button{
+       font-size: 1rem;
+       width: 30%;
+    }
+    .scris img{
+        display: none;
+    }
+    
+}
+@media all and (min-width:255px){
+    .scris button{
+        font-size:1.3rem;
+        display: flex;
+    }
+}
+@media all and (min-width:304px){
+    .scris button{
+        font-size:1.5rem;
+    }
+}
+@media all and (min-width:344px){
+    .scris button{
+        font-size:1.8rem;
+    }
+}
+@media all and (min-width:409px){
+    .scris button{
+        font-size:2rem;
+    }
+}
+@media all and (min-width:500px){
+    .scris button{
+        font-size:2.4rem;
+    }
+}
+@media all and (min-width:564px){
+    .scris button{
+        font-size:2.6rem;
+    }
+}
+@media all and (min-width:608px){
+    .scris button{
+        font-size:2.8rem;
+    }
+}
+@media all and (max-width:670px)and(min-width:608px){
+    .scris button{
+        font-size:3rem;
+    }
+}
+@media all and (min-width:686px){
+    .scris button{
+        font-size:1rem;
+        width:30%;
+        margin-left:5%;
+        
+    }
+}
+@media all and (min-width:750px){
+    .scris button{
+        font-size:1.4rem;
+        width:30%;
+        margin-left:5%;
+    }
+}
+@media all and (min-width:932px){
+    .scris button{
+        font-size:1.7rem;
+        width:30%;
+        margin-left:5%;
+    }
+}
+@media all and (min-width:1050px){
+    .scris button{
+        font-size:2rem;
+        width:30%;
+        text-align:center;
+        margin-left:5%;
+    }
+}
+@media all  and (min-width: 1315px){
+    
+    .scris h2{
+        font-size:300%;
+    } 
+}
+@media all  and (min-width: 1315px){
+    
+    .scris h2{
+        font-size:300%;
+    } 
+}
+@media all and (min-width:1360px){
+    .scris button{
+        font-size:100%;
+    }
+}
+.nav-item button{
+    border-radius: 30px;
+    background: #ff861c;
+    outline: none;
+    transition: 0.4s ease;
+}
+.nav-item button:hover{
+   background:#db7114;
+}
+.scris a{
+    text-decoration: none;
+}
+
+.scris input:hover{
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+#id{
+    width: 60%;
+}
+
+.scris{
+    display: grid;
+    grid-template-areas: 'titlu titlu titlu titlu'
+                         
+                         'scris scris scris img'
+                         'scris scris scris img'
+                         'button button button buttton';
+}
